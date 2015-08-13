@@ -1,5 +1,5 @@
 {
-  "name": "wms-preview",
+  "name": "wms-previewer",
   "version": "1.0.0",
   "description": "",
   "main": "server/index.js",

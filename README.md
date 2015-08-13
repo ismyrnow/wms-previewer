@@ -5,6 +5,8 @@ A simple web app that display a leaflet map with all of the layers in a WMS serv
 
 Type in your WMS service's URL, and it adds each layer as an overlay in the layer control.
 
+![Screenshot](screenshot.png)
+
 What it doesn't do:
 
 - Query or identify features.
