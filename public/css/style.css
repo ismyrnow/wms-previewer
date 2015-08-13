@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.url-container {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  z-index: 2;
+  border-radius: 4px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+  padding: 5px 8px;
+  background-color: white;
+  width: 30%;
+}
+
+.url-container input {
+  border: none;
+  color: #444;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  width: 100%;
+}
+
+.url-container input:focus {
+  outline: none;
+}
+
+.loading .url-container input {
+  background: #fff url(../images/loading.gif) 100% 50% no-repeat;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.leaflet-control-layers-overlays {
+  max-height: 500px;
+  overflow: auto;
+}
